@@ -1,0 +1,89 @@
+.App
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+body{
+  background-color: black;
+}
+
+img  
+{
+  width:100px;
+  height:300px;
+  align-self: center;
+}
+
+h1
+{
+  text-align: center;
+  color:yellow;
+}
+
+p{
+  text-align:justify;
+  color:wheat
+}
+
+.open-search {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.open-search button {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url(https://png.pngtree.com/png-vector/20190501/ourlarge/pngtree-favourite-icon-design-png-image_1016157.jpg);
+  background-position: center;
+  background-size: 125%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card
+{
+  background-color:black;
+  width:350px;
+  padding: 5%;
+  color:white;
+}
+
+#heart
+{
+  margin-left: 90%;
+}
+
+.like
+{
+  color:red; 
+}
+
+h3
+{
+  text-align: center;
+  color:yellow;
+  font-weight: bold;
+}
+
+h5
+{
+  text-align: center;
+  color:yellowgreen;
+  font-weight:bold;
+}
+
+.close-search {
+  position: fixed;
+  top: 0px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6uTg0GMle7K3MnUqBJqsv4RmptX6b5nzRNb9xYWzaFMn8YjmnAg);
+  background-position: center;
+  background-size: 150% 130%;
+}
